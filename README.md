@@ -4,6 +4,15 @@ The average TCP throughput (file download) between 2 endpoints </br>
 The UDP echo packet delay variation per second </br>
 The TCP throughput as a function of time </br>
 The UDP throughput as a function of time </br>
+
+Building the software:
+
+pcap_eval uses cmake to build the software. Create the build directory, cd into it, and invoke cmake  </br>
+mkdir build </br>
+cd build </br>
+cmake .. </br>
+cmake --build . </br>
+
 </br>
 Evaluate basic TCP/UDP performance from a pcap </br>
 </br>
